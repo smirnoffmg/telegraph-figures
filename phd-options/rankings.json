@@ -1,0 +1,750 @@
+{
+ "arwu": {
+  "ranking": "ShanghaiRanking Global Ranking of Academic Subjects (GRAS) — Mathematics (код AS0101)",
+  "edition": 2026,
+  "url": "https://www.shanghairanking.com/rankings/gras/2026/AS0101",
+  "data_url": "https://www.shanghairanking.com/api/pub/v1/gras/rank?version=2026&subj_code=AS0101",
+  "coverage": "500 вузов (топ-500), после 50-го места — диапазоны",
+  "rows": [
+   {
+    "institution": "МГУ им. Ломоносова",
+    "source_name": "Moscow State University",
+    "rank": "101-150",
+    "rank_low": 101,
+    "rank_high": 150
+   },
+   {
+    "institution": "СПбГУ",
+    "source_name": "St Petersburg University",
+    "rank": "201-300",
+    "rank_low": 201,
+    "rank_high": 300
+   },
+   {
+    "institution": "НИУ ВШЭ",
+    "source_name": "HSE University",
+    "rank": "151-200",
+    "rank_low": 151,
+    "rank_high": 200
+   },
+   {
+    "institution": "МФТИ",
+    "source_name": null,
+    "rank": "not_ranked",
+    "rank_low": null,
+    "rank_high": null
+   },
+   {
+    "institution": "Сколтех",
+    "source_name": null,
+    "rank": "not_ranked",
+    "rank_low": null,
+    "rank_high": null
+   },
+   {
+    "institution": "ISTA (Institute of Science and Technology Austria)",
+    "source_name": null,
+    "rank": "not_ranked",
+    "rank_low": null,
+    "rank_high": null
+   },
+   {
+    "institution": "Венский университет",
+    "source_name": "University of Vienna",
+    "rank": "35",
+    "rank_low": 35,
+    "rank_high": 35
+   },
+   {
+    "institution": "TU Wien",
+    "source_name": "Vienna University of Technology",
+    "rank": "101-150",
+    "rank_low": 101,
+    "rank_high": 150
+   },
+   {
+    "institution": "Боннский университет",
+    "source_name": "University of Bonn",
+    "rank": "27",
+    "rank_low": 27,
+    "rank_high": 27
+   },
+   {
+    "institution": "Лейпцигский университет",
+    "source_name": "University of Leipzig",
+    "rank": "201-300",
+    "rank_low": 201,
+    "rank_high": 300
+   },
+   {
+    "institution": "Свободный университет Берлина (FU Berlin)",
+    "source_name": "Free University Berlin",
+    "rank": "301-400",
+    "rank_low": 301,
+    "rank_high": 400
+   },
+   {
+    "institution": "Гумбольдтовский университет Берлина",
+    "source_name": "Humboldt University of Berlin",
+    "rank": "101-150",
+    "rank_low": 101,
+    "rank_high": 150
+   },
+   {
+    "institution": "Технический университет Берлина (TU Berlin)",
+    "source_name": "Technical University of Berlin",
+    "rank": "101-150",
+    "rank_low": 101,
+    "rank_high": 150
+   },
+   {
+    "institution": "TU Munich",
+    "source_name": "Technical University of Munich",
+    "rank": "201-300",
+    "rank_low": 201,
+    "rank_high": 300
+   },
+   {
+    "institution": "LMU Munich",
+    "source_name": "LMU Munich",
+    "rank": "101-150",
+    "rank_low": 101,
+    "rank_high": 150
+   },
+   {
+    "institution": "ETH Zurich",
+    "source_name": "ETH Zurich",
+    "rank": "8",
+    "rank_low": 8,
+    "rank_high": 8
+   },
+   {
+    "institution": "Цюрихский университет",
+    "source_name": "University of Zurich",
+    "rank": "51-75",
+    "rank_low": 51,
+    "rank_high": 75
+   },
+   {
+    "institution": "EPFL",
+    "source_name": "Swiss Federal Institute of Technology Lausanne",
+    "rank": "9",
+    "rank_low": 9,
+    "rank_high": 9
+   },
+   {
+    "institution": "Утрехтский университет",
+    "source_name": "Utrecht University",
+    "rank": "201-300",
+    "rank_low": 201,
+    "rank_high": 300
+   },
+   {
+    "institution": "Лейденский университет",
+    "source_name": "Leiden University",
+    "rank": "401-500",
+    "rank_low": 401,
+    "rank_high": 500
+   },
+   {
+    "institution": "Амстердамский университет",
+    "source_name": "University of Amsterdam",
+    "rank": "151-200",
+    "rank_low": 151,
+    "rank_high": 200
+   },
+   {
+    "institution": "TU Delft",
+    "source_name": "Delft University of Technology",
+    "rank": "201-300",
+    "rank_low": 201,
+    "rank_high": 300
+   },
+   {
+    "institution": "TU Eindhoven",
+    "source_name": null,
+    "rank": "not_ranked",
+    "rank_low": null,
+    "rank_high": null
+   },
+   {
+    "institution": "Sorbonne University",
+    "source_name": "Sorbonne University",
+    "rank": "6",
+    "rank_low": 6,
+    "rank_high": 6
+   },
+   {
+    "institution": "Université Paris Cité",
+    "source_name": "Université Paris Cité",
+    "rank": "18",
+    "rank_low": 18,
+    "rank_high": 18
+   },
+   {
+    "institution": "PSL (вкл. ENS)",
+    "source_name": "PSL University",
+    "rank": "45",
+    "rank_low": 45,
+    "rank_high": 45
+   },
+   {
+    "institution": "Université Paris-Saclay",
+    "source_name": "Paris-Saclay University",
+    "rank": "2",
+    "rank_low": 2,
+    "rank_high": 2
+   },
+   {
+    "institution": "Institut Polytechnique de Paris",
+    "source_name": "Institut Polytechnique de Paris",
+    "rank": "76-100",
+    "rank_low": 76,
+    "rank_high": 100
+   },
+   {
+    "institution": "SISSA",
+    "source_name": "International School for Advanced Studies",
+    "rank": "51-75",
+    "rank_low": 51,
+    "rank_high": 75
+   },
+   {
+    "institution": "Scuola Normale Superiore",
+    "source_name": "Scuola Normale Superiore - Pisa",
+    "rank": "51-75",
+    "rank_low": 51,
+    "rank_high": 75
+   },
+   {
+    "institution": "Bocconi",
+    "source_name": null,
+    "rank": "not_ranked",
+    "rank_low": null,
+    "rank_high": null
+   },
+   {
+    "institution": "ELTE",
+    "source_name": "Eotvos Lorand University",
+    "rank": "301-400",
+    "rank_low": 301,
+    "rank_high": 400
+   },
+   {
+    "institution": "BME (Будапештский технический университет)",
+    "source_name": null,
+    "rank": "not_ranked",
+    "rank_low": null,
+    "rank_high": null
+   },
+   {
+    "institution": "Сегедский университет",
+    "source_name": null,
+    "rank": "not_ranked",
+    "rank_low": null,
+    "rank_high": null
+   },
+   {
+    "institution": "Дебреценский университет",
+    "source_name": "University of Debrecen",
+    "rank": "301-400",
+    "rank_low": 301,
+    "rank_high": 400
+   },
+   {
+    "institution": "Oxford",
+    "source_name": "University of Oxford",
+    "rank": "3",
+    "rank_low": 3,
+    "rank_high": 3
+   },
+   {
+    "institution": "Cambridge",
+    "source_name": "University of Cambridge",
+    "rank": "5",
+    "rank_low": 5,
+    "rank_high": 5
+   },
+   {
+    "institution": "Warwick",
+    "source_name": "The University of Warwick",
+    "rank": "21",
+    "rank_low": 21,
+    "rank_high": 21
+   },
+   {
+    "institution": "Imperial College London",
+    "source_name": "Imperial College London",
+    "rank": "17",
+    "rank_low": 17,
+    "rank_high": 17
+   },
+   {
+    "institution": "UC Berkeley",
+    "source_name": "University of California, Berkeley",
+    "rank": "15",
+    "rank_low": 15,
+    "rank_high": 15
+   },
+   {
+    "institution": "Weizmann Institute",
+    "source_name": "Weizmann Institute of Science",
+    "rank": "38",
+    "rank_low": 38,
+    "rank_high": 38
+   },
+   {
+    "institution": "Еврейский университет в Иерусалиме",
+    "source_name": "The Hebrew University of Jerusalem",
+    "rank": "24",
+    "rank_low": 24,
+    "rank_high": 24
+   },
+   {
+    "institution": "Technion",
+    "source_name": "Technion-Israel Institute of Technology",
+    "rank": "76-100",
+    "rank_low": 76,
+    "rank_high": 100
+   },
+   {
+    "institution": "Nazarbayev University",
+    "source_name": null,
+    "rank": "not_ranked",
+    "rank_low": null,
+    "rank_high": null
+   },
+   {
+    "institution": "Bilkent",
+    "source_name": null,
+    "rank": "not_ranked",
+    "rank_low": null,
+    "rank_high": null
+   },
+   {
+    "institution": "Koç",
+    "source_name": null,
+    "rank": "not_ranked",
+    "rank_low": null,
+    "rank_high": null
+   },
+   {
+    "institution": "Белградский университет",
+    "source_name": "University of Belgrade",
+    "rank": "151-200",
+    "rank_low": 151,
+    "rank_high": 200
+   }
+  ]
+ },
+ "qs": {
+  "ranking": "QS World University Rankings by Subject 2026: Mathematics",
+  "edition": 2026,
+  "url": "https://www.topuniversities.com/university-subject-rankings/mathematics",
+  "data_url": "https://www.topuniversities.com/rankings/endpoint?nid=4114659&page=0&items_per_page=100&tab=indicators",
+  "coverage": "603 вуза, точные места до 150 (знак '=' — разделённое место), далее диапазоны до 501-600",
+  "rows": [
+   {
+    "institution": "МГУ им. Ломоносова",
+    "source_name": "Lomonosov Moscow State University",
+    "rank": "=46",
+    "rank_low": 46,
+    "rank_high": 46
+   },
+   {
+    "institution": "СПбГУ",
+    "source_name": "Saint Petersburg State University",
+    "rank": "151-200",
+    "rank_low": 151,
+    "rank_high": 200
+   },
+   {
+    "institution": "НИУ ВШЭ",
+    "source_name": "HSE University",
+    "rank": "148",
+    "rank_low": 148,
+    "rank_high": 148
+   },
+   {
+    "institution": "МФТИ",
+    "source_name": "Moscow Institute of Physics and Technology (MIPT / Moscow Phystech)",
+    "rank": "=116",
+    "rank_low": 116,
+    "rank_high": 116
+   },
+   {
+    "institution": "Сколтех",
+    "source_name": null,
+    "rank": "not_ranked",
+    "rank_low": null,
+    "rank_high": null
+   },
+   {
+    "institution": "ISTA (Institute of Science and Technology Austria)",
+    "source_name": null,
+    "rank": "not_ranked",
+    "rank_low": null,
+    "rank_high": null
+   },
+   {
+    "institution": "Венский университет",
+    "source_name": "University of Vienna",
+    "rank": "90",
+    "rank_low": 90,
+    "rank_high": 90
+   },
+   {
+    "institution": "TU Wien",
+    "source_name": "Technische Universität Wien",
+    "rank": "=122",
+    "rank_low": 122,
+    "rank_high": 122
+   },
+   {
+    "institution": "Боннский университет",
+    "source_name": "Rheinische Friedrich-Wilhelms-Universität Bonn",
+    "rank": "39",
+    "rank_low": 39,
+    "rank_high": 39
+   },
+   {
+    "institution": "Лейпцигский университет",
+    "source_name": "Universität  Leipzig",
+    "rank": "501-600",
+    "rank_low": 501,
+    "rank_high": 600
+   },
+   {
+    "institution": "Свободный университет Берлина (FU Berlin)",
+    "source_name": "Freie Universitaet Berlin",
+    "rank": "=125",
+    "rank_low": 125,
+    "rank_high": 125
+   },
+   {
+    "institution": "Гумбольдтовский университет Берлина",
+    "source_name": "Humboldt-Universität zu Berlin",
+    "rank": "=99",
+    "rank_low": 99,
+    "rank_high": 99
+   },
+   {
+    "institution": "Технический университет Берлина (TU Berlin)",
+    "source_name": "Technische Universität Berlin (TU Berlin)",
+    "rank": "53",
+    "rank_low": 53,
+    "rank_high": 53
+   },
+   {
+    "institution": "TU Munich",
+    "source_name": "Technical University of Munich",
+    "rank": "50",
+    "rank_low": 50,
+    "rank_high": 50
+   },
+   {
+    "institution": "LMU Munich",
+    "source_name": "Ludwig-Maximilians-Universität München",
+    "rank": "=122",
+    "rank_low": 122,
+    "rank_high": 122
+   },
+   {
+    "institution": "ETH Zurich",
+    "source_name": "ETH Zurich",
+    "rank": "10",
+    "rank_low": 10,
+    "rank_high": 10
+   },
+   {
+    "institution": "Цюрихский университет",
+    "source_name": "University of Zurich",
+    "rank": "=109",
+    "rank_low": 109,
+    "rank_high": 109
+   },
+   {
+    "institution": "EPFL",
+    "source_name": "EPFL – École polytechnique fédérale de Lausanne",
+    "rank": "17",
+    "rank_low": 17,
+    "rank_high": 17
+   },
+   {
+    "institution": "Утрехтский университет",
+    "source_name": "Utrecht University",
+    "rank": "151-200",
+    "rank_low": 151,
+    "rank_high": 200
+   },
+   {
+    "institution": "Лейденский университет",
+    "source_name": "Leiden University",
+    "rank": "151-200",
+    "rank_low": 151,
+    "rank_high": 200
+   },
+   {
+    "institution": "Амстердамский университет",
+    "source_name": "University of Amsterdam",
+    "rank": "82",
+    "rank_low": 82,
+    "rank_high": 82
+   },
+   {
+    "institution": "TU Delft",
+    "source_name": "Delft University of Technology",
+    "rank": "73",
+    "rank_low": 73,
+    "rank_high": 73
+   },
+   {
+    "institution": "TU Eindhoven",
+    "source_name": "Eindhoven University of Technology",
+    "rank": "133",
+    "rank_low": 133,
+    "rank_high": 133
+   },
+   {
+    "institution": "Sorbonne University",
+    "source_name": "Sorbonne University",
+    "rank": "11",
+    "rank_low": 11,
+    "rank_high": 11
+   },
+   {
+    "institution": "Université Paris Cité",
+    "source_name": "Université Paris Cité",
+    "rank": "65",
+    "rank_low": 65,
+    "rank_high": 65
+   },
+   {
+    "institution": "PSL (вкл. ENS)",
+    "source_name": "Université PSL",
+    "rank": "=22",
+    "rank_low": 22,
+    "rank_high": 22
+   },
+   {
+    "institution": "Université Paris-Saclay",
+    "source_name": "Université Paris-Saclay",
+    "rank": "19",
+    "rank_low": 19,
+    "rank_high": 19
+   },
+   {
+    "institution": "Institut Polytechnique de Paris",
+    "source_name": "Institut Polytechnique de Paris",
+    "rank": "24",
+    "rank_low": 24,
+    "rank_high": 24
+   },
+   {
+    "institution": "SISSA",
+    "source_name": "International School for Advanced Studies of Trieste",
+    "rank": "351-400",
+    "rank_low": 351,
+    "rank_high": 400
+   },
+   {
+    "institution": "Scuola Normale Superiore",
+    "source_name": "Scuola Normale Superiore",
+    "rank": "=141",
+    "rank_low": 141,
+    "rank_high": 141
+   },
+   {
+    "institution": "Bocconi",
+    "source_name": "Bocconi University",
+    "rank": "401-450",
+    "rank_low": 401,
+    "rank_high": 450
+   },
+   {
+    "institution": "ELTE",
+    "source_name": "Eötvös Loránd University",
+    "rank": "251-300",
+    "rank_low": 251,
+    "rank_high": 300
+   },
+   {
+    "institution": "BME (Будапештский технический университет)",
+    "source_name": "Budapest University of Technology and Economics",
+    "rank": "351-400",
+    "rank_low": 351,
+    "rank_high": 400
+   },
+   {
+    "institution": "Сегедский университет",
+    "source_name": "University of Szeged",
+    "rank": "501-600",
+    "rank_low": 501,
+    "rank_high": 600
+   },
+   {
+    "institution": "Дебреценский университет",
+    "source_name": null,
+    "rank": "not_ranked",
+    "rank_low": null,
+    "rank_high": null
+   },
+   {
+    "institution": "Oxford",
+    "source_name": "University of Oxford",
+    "rank": "2",
+    "rank_low": 2,
+    "rank_high": 2
+   },
+   {
+    "institution": "Cambridge",
+    "source_name": "University of Cambridge",
+    "rank": "3",
+    "rank_low": 3,
+    "rank_high": 3
+   },
+   {
+    "institution": "Warwick",
+    "source_name": "University of Warwick",
+    "rank": "28",
+    "rank_low": 28,
+    "rank_high": 28
+   },
+   {
+    "institution": "Imperial College London",
+    "source_name": "Imperial College London",
+    "rank": "=8",
+    "rank_low": 8,
+    "rank_high": 8
+   },
+   {
+    "institution": "UC Berkeley",
+    "source_name": "University of California, Berkeley (UCB)",
+    "rank": "=6",
+    "rank_low": 6,
+    "rank_high": 6
+   },
+   {
+    "institution": "Weizmann Institute",
+    "source_name": "Weizmann Institute of Science",
+    "rank": "351-400",
+    "rank_low": 351,
+    "rank_high": 400
+   },
+   {
+    "institution": "Еврейский университет в Иерусалиме",
+    "source_name": "The Hebrew University of Jerusalem",
+    "rank": "251-300",
+    "rank_low": 251,
+    "rank_high": 300
+   },
+   {
+    "institution": "Technion",
+    "source_name": "Technion - Israel Institute of Technology",
+    "rank": "=139",
+    "rank_low": 139,
+    "rank_high": 139
+   },
+   {
+    "institution": "Nazarbayev University",
+    "source_name": null,
+    "rank": "not_ranked",
+    "rank_low": null,
+    "rank_high": null
+   },
+   {
+    "institution": "Bilkent",
+    "source_name": "Bilkent University",
+    "rank": "401-450",
+    "rank_low": 401,
+    "rank_high": 450
+   },
+   {
+    "institution": "Koç",
+    "source_name": "Koç University",
+    "rank": "401-450",
+    "rank_low": 401,
+    "rank_high": 450
+   },
+   {
+    "institution": "Белградский университет",
+    "source_name": "University of Belgrade",
+    "rank": "501-600",
+    "rank_low": 501,
+    "rank_high": 600
+   }
+  ]
+ },
+ "not_found": [
+  {
+   "institution": "МФТИ",
+   "missing_in": [
+    "arwu"
+   ]
+  },
+  {
+   "institution": "Сколтех",
+   "missing_in": [
+    "arwu",
+    "qs"
+   ]
+  },
+  {
+   "institution": "ISTA (Institute of Science and Technology Austria)",
+   "missing_in": [
+    "arwu",
+    "qs"
+   ]
+  },
+  {
+   "institution": "TU Eindhoven",
+   "missing_in": [
+    "arwu"
+   ]
+  },
+  {
+   "institution": "Bocconi",
+   "missing_in": [
+    "arwu"
+   ]
+  },
+  {
+   "institution": "BME (Будапештский технический университет)",
+   "missing_in": [
+    "arwu"
+   ]
+  },
+  {
+   "institution": "Сегедский университет",
+   "missing_in": [
+    "arwu"
+   ]
+  },
+  {
+   "institution": "Дебреценский университет",
+   "missing_in": [
+    "qs"
+   ]
+  },
+  {
+   "institution": "Nazarbayev University",
+   "missing_in": [
+    "arwu",
+    "qs"
+   ]
+  },
+  {
+   "institution": "Bilkent",
+   "missing_in": [
+    "arwu"
+   ]
+  },
+  {
+   "institution": "Koç",
+   "missing_in": [
+    "arwu"
+   ]
+  }
+ ],
+ "notes": "Данные получены 2026-10-04 напрямую с официальных сайтов. GRAS: страница /rankings/gras/2026/AS0101 рендерится Nuxt, JSON берётся из /api/pub/v1/gras/rank (параметры version и subj_code; адрес из задания с year/subject_code=RS0101 возвращает 'Parameter error' — Mathematics имеет код AS0101). Издание 2026 опубликовано (на странице выбор лет 2026…2017). QS: страница /university-subject-rankings/mathematics имеет заголовок 'QS World University Rankings for Mathematics 2026'; таблица грузится из /rankings/endpoint?nid=4114659 (за Cloudflare — получено через curl_cffi с имитацией браузера; nid найден в drupalSettings qs_rankings_rest_api). Знак '=' в QS сохранён в rank. Сопоставление: PSL в обоих рейтингах значится как единый вуз (ENS отдельно не ранжируется; ENS de Lyon — другой вуз, не включён). МГУ в GRAS — 'Moscow State University'. EPFL в GRAS — 'Swiss Federal Institute of Technology Lausanne'. SISSA — 'International School for Advanced Studies (of Trieste)'. not_ranked означает отсутствие в опубликованном списке (GRAS топ-500, QS 603 позиции); поиск по названию и стране проверен вручную."
+}

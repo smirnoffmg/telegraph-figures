@@ -1,0 +1,391 @@
+{
+ "stipends": [
+  {
+   "option": "Сколтех, PhD Mathematics and Mechanics",
+   "country": "Россия",
+   "amount": 75000,
+   "currency": "RUB",
+   "period": "месяц",
+   "tax": "не указано",
+   "year": "набор 2026/2027 (страница программы, проверено 04.10.2026)",
+   "url": "https://www.skoltech.ru/en/programs/phd-maths",
+   "quote": "Monthly scholarship starting at 75,000 rub/month for highest-scoring applicants",
+   "note": "«от», только для абитуриентов с наивысшими баллами"
+  },
+  {
+   "option": "МФТИ, аспирантура (гос. стипендия)",
+   "country": "Россия",
+   "amount": 25000,
+   "currency": "RUB",
+   "period": "месяц",
+   "tax": "не указано",
+   "year": "осенний семестр 2026/2027 (приказ МФТИ № 4655-1 от 17.09.2026)",
+   "url": "https://mipt.ru/vikon/sveden/files/aid/Prikaz_No_4655-1_ot_17.09.2026.pdf",
+   "quote": "1.7. Государственная стипендия аспирантам 1 курса - обучающимся по программам подготовки научно-педагогических кадров в аспирантуре 25 000",
+   "note": "2–3 курс при оценках «хорошо»/«отлично» тоже 25 000, 4 курс 11 100 руб.; добавлено вместо неподтверждённых 10 513 руб. ВШЭ/МГУ"
+  },
+  {
+   "option": "ISTA, PhD",
+   "country": "Австрия",
+   "amount": 3053,
+   "currency": "EUR",
+   "period": "месяц",
+   "tax": "брутто, 14 выплат в год",
+   "year": "2026",
+   "url": "https://phd.ista.ac.at/funding-and-awards/",
+   "quote": "Gross salaries in the year 2026 for PhD students range – dependent on the criteria above – from 3053 EUR/month to 3673 EUR/month (paid 14 times a year",
+   "amount_max": 3673
+  },
+  {
+   "option": "Бонн, Hausdorff Doctoral Positions (TV-L E13, 75%)",
+   "country": "Германия",
+   "amount": 2000,
+   "currency": "EUR",
+   "period": "месяц",
+   "tax": "нетто",
+   "year": "год не указан на странице (проверено 04.10.2026)",
+   "url": "https://www.mathematics.uni-bonn.de/hsm-school/phd-admission",
+   "quote": "The net salary (TV-L E13, 75%) ranges from appr. 2000 to 2300 Euros per month depending on personal circumstances.",
+   "amount_max": 2300
+  },
+  {
+   "option": "ETH Zürich / ZGSM, doctoral student (ставка standard, 1-й год)",
+   "country": "Швейцария",
+   "amount": 53500,
+   "currency": "CHF",
+   "period": "год",
+   "tax": "брутто",
+   "year": "с 01.01.2026",
+   "url": "https://ethz.ch/staffnet/en/news-and-events/internal-news/archive/2025/12/increase-in-salary-rates-for-doctoral-students-standard-and-rate-2.html",
+   "quote": "Doctoral students - Standard | + 1'000 | 53,500 (таблица-картинка «Salary as of 1.1.26 (CHF)», 1st year)",
+   "note": "2-й год 54 700, 3-й 56 100; ставка rate 2: 56 100 / 58 300 / 60 800; цифра снята с изображения таблицы на странице"
+  },
+  {
+   "option": "EPFL, doctoral assistant (1-й год)",
+   "country": "Швейцария",
+   "amount": 55225,
+   "currency": "CHF",
+   "period": "год",
+   "tax": "брутто, включая 13-ю зарплату",
+   "year": "2026",
+   "url": "https://www.epfl.ch/campus/services/people-experience/en/remuneration-and-benefits/salaries-of-other-staff-categories/",
+   "quote": "Doctoral Assistants 2026 Gross Annual Salary ( including the 13th salary month) 1 st year 2 nd year 3 rd year 4 th year 5 th year 6 th year 55,225 56,225 57,225 58,225 58,225 58,225"
+  },
+  {
+   "option": "Нидерланды, promovendus (CAO NU, ступень P0, 1-й год)",
+   "country": "Нидерланды",
+   "amount": 3059,
+   "currency": "EUR",
+   "period": "месяц",
+   "tax": "брутто, без 8% отпускных и годовой выплаты",
+   "year": "с 01.07.2025 (CAO 01.07.2025–30.06.2026; новее не найдено)",
+   "url": "https://www.universiteitenvannederland.nl/files/publications/UNL-20879-10-CAO%20Nederlandse%20Universiteiten%20NL%202025-2026_0.pdf",
+   "quote": "Tabel 4.1 Salaristabel met ingang van 01-07-2025 … P … 3.059 (трeда 0); Art. 3.9: «De promovendus wordt bij aanvang van het dienstverband ingedeeld in salaristrede P0 voor de duur van 12 maanden.»",
+   "note": "P1 3 546, P2 3 708, P3 3 881 €/мес"
+  },
+  {
+   "option": "Франция, contrat doctoral (минимум)",
+   "country": "Франция",
+   "amount": 2300,
+   "currency": "EUR",
+   "period": "месяц",
+   "tax": "брутто",
+   "year": "с 01.01.2026",
+   "url": "https://www.etudiant.gouv.fr/fr/contrats-doctoraux-financement-doctoral-523",
+   "quote": "à compter du 1er janvier 2026 : 2 300 € brut par mois"
+  },
+  {
+   "option": "FSMP, стипендия PGSM (M2)",
+   "country": "Франция",
+   "amount": 1150,
+   "currency": "EUR",
+   "period": "месяц",
+   "tax": "не указано",
+   "year": "набор 2027 (страница FSMP, проверено 04.10.2026)",
+   "url": "https://sciencesmaths-paris.fr/en/our-programs/master/pgsm-master",
+   "quote": "the benefit of one or two-year master's scholarships, amounting to €1,150/month"
+  },
+  {
+   "option": "SISSA, PhD",
+   "country": "Италия",
+   "amount": 16242.96,
+   "currency": "EUR",
+   "period": "год",
+   "tax": "брутто (до удержания взносов INPS)",
+   "year": "2026/2027",
+   "url": "https://www2.sissa.it/sites/default/files/2025-12/Bando_Italiano_2026_27.pdf",
+   "quote": "Ai candidati ammessi verrà attribuita una borsa di studio dell’importo di € 16.242.96 annui al lordo delle trattenute INPS ai sensi della L. 398/89 per tutta la durata del corso."
+  },
+  {
+   "option": "Scuola Normale Superiore, perfezionamento (PhD)",
+   "country": "Италия",
+   "amount": 18848,
+   "currency": "EUR",
+   "period": "год",
+   "tax": "брутто (lordo percipiente), включая надбавку на жильё",
+   "year": "2026/2027",
+   "url": "https://www.sns.it/sites/default/files/2026-01/bando_phd_2026-27_sci-signed_1.pdf",
+   "quote": "Per l’anno accademico 2026-2027 la borsa di perfezionamento è pari a euro 18.848,00 lordo percipiente, comprensivi di un contributo alloggio."
+  },
+  {
+   "option": "Bocconi, PhD Statistics and Computer Science (1-й год)",
+   "country": "Италия",
+   "amount": 27000,
+   "currency": "EUR",
+   "period": "год",
+   "tax": "брутто; без подоходного налога, удерживается доля INPS аспиранта (11,68%)",
+   "year": "2026/2027",
+   "url": "https://unibocconi.it/en/programs/phd/admission-phd-programs/preparing-apply",
+   "quote": "The fellowship amounts to € 27,000 for the first year and € 23,000 for the subsequent years (2 nd , 3 rd , 4 th ). … The fellowship is exempt from personal income tax.",
+   "note": "2–4-й годы 23 000 €"
+  },
+  {
+   "option": "Stipendium Hungaricum PhD, 1-я фаза (семестры 1–4)",
+   "country": "Венгрия",
+   "amount": 140000,
+   "currency": "HUF",
+   "period": "месяц",
+   "tax": "не указано",
+   "year": "2026/2027",
+   "url": "https://stipendiumhungaricum.hu/wp-content/uploads/2025/10/PhD_Call_for_Applications_2026_27.pdf",
+   "quote": "the monthly amount of scholarship is HUF 140,000 (cca EUR1 355 for the first phase of education (4 semesters) and HUF 180,000 (cca EUR 460) for the second phase (4 semesters) - for 12 months a year",
+   "note": "пересчёт в евро в самом документе искажён («EUR1 355»), его не использовать"
+  },
+  {
+   "option": "Stipendium Hungaricum PhD, 2-я фаза (семестры 5–8)",
+   "country": "Венгрия",
+   "amount": 180000,
+   "currency": "HUF",
+   "period": "месяц",
+   "tax": "не указано",
+   "year": "2026/2027",
+   "url": "https://stipendiumhungaricum.hu/wp-content/uploads/2025/10/PhD_Call_for_Applications_2026_27.pdf",
+   "quote": "HUF 180,000 (cca EUR 460) for the second phase (4 semesters) - for 12 months a year"
+  },
+  {
+   "option": "Великобритания, UKRI minimum stipend",
+   "country": "Великобритания",
+   "amount": 21805,
+   "currency": "GBP",
+   "period": "год",
+   "tax": "не указано на странице",
+   "year": "2026/2027",
+   "url": "https://www.ukri.org/manage-your-award/studentship-guidance/guidance-for-training-grant-holders/",
+   "quote": "Academic year Minimum stipend £ Fee level £ 2026 to 2027 21,805 5,238",
+   "note": "минимум вне Лондона; лондонской надбавки на этой странице нет"
+  }
+ ],
+ "living_minimum": [
+  {
+   "country": "Германия",
+   "amount": 992,
+   "currency": "EUR",
+   "period": "месяц",
+   "what": "Блокированный счёт для визы на учёбу: 992 €/мес (11 904 €/год). Памятка посольства в Москве по состоянию на февраль 2025; сумма именно на 2026 официально не подтверждена",
+   "url": "https://germania.diplo.de/resource/blob/1611632/41c7219b0e955033b4b9132f6d53927b/studium-data.pdf",
+   "quote": "первого учебного года из расчета 992 евро в месяц (11.904 евро в год)",
+   "as_of": "февраль 2025"
+  },
+  {
+   "country": "Австрия",
+   "amount": 1308.39,
+   "currency": "EUR",
+   "period": "месяц",
+   "what": "Ausgleichszulagenrichtsatz 2026 для одиночки (ориентир требуемого дохода для ВНЖ); для пары 2 064,12 €",
+   "url": "https://www.sozialministerium.gv.at/Themen/Soziales/Sozialversicherung/Pensionsversicherung/Ausgleichszulage-und-Pensionsbonus.html",
+   "quote": "2026 beträgt der Richtsatz für Alleinstehende 1.308,39 Euro, für Ehepaare sowie Paare in eingetragener Partnerschaft 2.064,12 Euro."
+  },
+  {
+   "country": "Франция",
+   "amount": 877.5,
+   "currency": "EUR",
+   "period": "месяц",
+   "what": "Минимум ресурсов для VLS-TS / titre de séjour «étudiant» (страница проверена 01.08.2026; прежняя цифра 615 € больше не действует)",
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2231",
+   "quote": "Vous devez pouvoir justifier de ressources au moins égales à 877,5 € par mois."
+  },
+  {
+   "country": "Италия",
+   "amount": 10179.85,
+   "currency": "EUR",
+   "period": "год",
+   "what": "Средства к существованию для учебной визы D и permesso di soggiorno (циркуляр MUR/MAECI на 2026/27 и 2027/28; PDF размещён на сайте Università di Ferrara)",
+   "url": "https://www.unife.it/it/internazionale/venire/iscriversi/informazioni/circolare_2026-2027_studenti_internazionali.pdf",
+   "quote": "Mezzi economici di sussistenza per il soggiorno previsto. Tali mezzi sono quantificati nell’importo di euro 10.179,85 annuali."
+  },
+  {
+   "country": "Великобритания (Лондон)",
+   "amount": 1529,
+   "currency": "GBP",
+   "period": "месяц",
+   "what": "Maintenance для Student visa, курс в Лондоне, до 9 месяцев",
+   "url": "https://www.gov.uk/student-visa/money",
+   "quote": "£1,529 per month (for up to 9 months) for courses in London"
+  },
+  {
+   "country": "Великобритания (вне Лондона)",
+   "amount": 1171,
+   "currency": "GBP",
+   "period": "месяц",
+   "what": "Maintenance для Student visa, курс вне Лондона, до 9 месяцев",
+   "url": "https://www.gov.uk/student-visa/money",
+   "quote": "£1,171 per month (for up to 9 months) for courses outside London"
+  },
+  {
+   "country": "Нидерланды (студент)",
+   "amount": 1130.77,
+   "currency": "EUR",
+   "period": "месяц",
+   "what": "Норма IND для студента вуза (hbo/университет), 01.01–31.12.2026",
+   "url": "https://ind.nl/en/required-amounts-income-requirements",
+   "quote": "Study amounts 2026 These amounts are valid from 1 January 2026 up to and including 31 December 2026. Study type Monthly amount Higher professional education (hbo) or university € 1,130.77"
+  },
+  {
+   "country": "Нидерланды (исследователь)",
+   "amount": 1635.9,
+   "currency": "EUR",
+   "period": "месяц",
+   "what": "Требуемая зарплата для ВНЖ исследователя (брутто SV, без отпускных), 01.07–31.12.2026",
+   "url": "https://ind.nl/en/required-amounts-income-requirements",
+   "quote": "Application for a residence permit as a researcher, guest lecturer or physician in training to be a specialist … These amounts are valid from 1 July 2026 up to and including 31 December 2026. Gross SV salary per month without holiday allowance € 1,635.90"
+  }
+ ],
+ "tuition": [
+  {
+   "option": "Белградский университет, докторантура «Математика» (иностранцы)",
+   "amount": 4500,
+   "currency": "EUR",
+   "period": "год обучения (в конкурсе период не назван)",
+   "url": "https://www.bg.ac.rs/wp-content/uploads/2026/07/MTF-DASjul26.pdf",
+   "quote": "Висина школарине за стране држављане: 4.500,00 евра.",
+   "year": "2026/2027"
+  },
+  {
+   "option": "ELTE, PhD по математике платно (не-ЕС, исследование в ELTE)",
+   "amount": 4000,
+   "currency": "EUR",
+   "period": "семестр (8 000 € в год)",
+   "url": "https://www.math.elte.hu/en/studies/phd/",
+   "quote": "Tuition fee/semester … non-EU/EEA students … 4000 EUR (if research is perfomed at ELTE)",
+   "year": "набор 2025/2026 (на странице новее нет)",
+   "note": "1 500 €/семестр, если исследование вне ELTE"
+  },
+  {
+   "option": "Венский университет, MSc Mathematics (не-ЕС)",
+   "amount": 752.92,
+   "currency": "EUR",
+   "period": "семестр",
+   "url": "https://studieren.univie.ac.at/en/studying-and-learning/financial-matters/amount-of-the-tuition-fee/students-union-fee",
+   "quote": "Amount non-EU/EEA Students' Union fee: 26.20 Euro Tuition fee: 726.72 Euro Total: 752.92 Euro per semester"
+  },
+  {
+   "option": "Nazarbayev University, PhD (без стипендии)",
+   "amount": 23500,
+   "currency": "USD",
+   "period": "год",
+   "url": "https://nu.edu.kz/admissions/fees-and-funding/",
+   "quote": "Tuition fees for one academic year: … Doctoral programs $23,500"
+  },
+  {
+   "option": "ISTA, PhD",
+   "amount": 0,
+   "currency": "EUR",
+   "period": "—",
+   "url": "https://phd.ista.ac.at/phd-program-faq/",
+   "quote": "ISTA does not charge any tuition fees."
+  },
+  {
+   "option": "IMPRS MiS Лейпциг",
+   "amount": 0,
+   "currency": "EUR",
+   "period": "—",
+   "url": "https://www.mis.mpg.de/career/imprs",
+   "quote": "No tuition fees, no teaching duties"
+  },
+  {
+   "option": "Сколтех, PhD",
+   "amount": 0,
+   "currency": "RUB",
+   "period": "—",
+   "url": "https://www.skoltech.ru/en/programs/phd-maths",
+   "quote": "Tuition costs covered by Skoltech"
+  },
+  {
+   "option": "Stipendium Hungaricum PhD",
+   "amount": 0,
+   "currency": "HUF",
+   "period": "—",
+   "url": "https://stipendiumhungaricum.hu/wp-content/uploads/2025/10/PhD_Call_for_Applications_2026_27.pdf",
+   "quote": "Tuition-free education - exemption from the payment of tuition fee"
+  },
+  {
+   "option": "Bocconi, PhD (все, включая стипендиатов)",
+   "amount": 190,
+   "currency": "EUR",
+   "period": "год (региональный налог, не плата за обучение)",
+   "url": "https://unibocconi.it/en/programs/phd/admission-phd-programs/preparing-apply",
+   "quote": "All PhD students (with fellowship, with tuition waiver and paying students) are required to pay the current annual regional tax of € 190"
+  },
+  {
+   "option": "Великобритания, UKRI studentship (плата по ставке home покрывается грантом)",
+   "amount": 5238,
+   "currency": "GBP",
+   "period": "год",
+   "url": "https://www.ukri.org/manage-your-award/studentship-guidance/guidance-for-training-grant-holders/",
+   "quote": "Academic year Minimum stipend £ Fee level £ 2026 to 2027 21,805 5,238",
+   "note": "это ставка home, которую покрывает грант; международная плата выше, разницу покрывает или не покрывает вуз"
+  }
+ ],
+ "fx": {
+  "date": "2026-10-02",
+  "EUR_GBP": 0.85033,
+  "EUR_CHF": 0.9279,
+  "EUR_HUF": 369.18,
+  "EUR_RUB": 94.5252,
+  "url_ecb": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml",
+  "url_cbr": "https://www.cbr.ru/scripts/XML_daily.asp?date_req=02/10/2026",
+  "note": "ECB: последняя доступная дата 02.10.2026 (пятница). ЦБ РФ: официальный курс на 02.10.2026 = 94,5252 руб./€ (курс на 03.10.2026, установленный 02.10, = 94,3201)"
+ },
+ "missing": [
+  {
+   "item": "ВШЭ/МГУ: гос. стипендия аспиранта 10 513 руб./мес. (норматив по приоритетным направлениям)",
+   "reason": "Официального текста с этой цифрой не нашёл. Страница ВШЭ aspirantura.hse.ru/stip и раздел sveden/grants суммы не называют, msu.ru/sveden/grants отрисовывается скриптом и пустой при загрузке. Письмо Минобрнауки № МН-11/1560 известно только по пересказу buh.ru. Взамен добавлена официальная цифра МФТИ: 25 000 руб."
+  },
+  {
+   "item": "IMPRS MiS Лейпциг: сумма 65% TVöD E13",
+   "reason": "Сайт MiS называет только долю («65 percent of Pay Group 13») без суммы. Таблицы TVöD Bund на bmi.bund.de не загрузились (HTTP 400), агрегаторы не годятся."
+  },
+  {
+   "item": "Weizmann: размер стипендии",
+   "reason": "Официальные страницы пишут только «most students receive a stipend which covers living expenses», суммы нет. Цифра около $1 800 взята из агрегатора."
+  },
+  {
+   "item": "Nazarbayev University: ежемесячная стипендия PhD",
+   "reason": "На официальных страницах (fees-and-funding, financial-aid-scholarships-phd) суммы стипендии нет, только плата $23 500 в год и стоимость жизни около $400 в месяц. Цифра 217 500 тенге не подтверждена."
+  },
+  {
+   "item": "Bilkent: размер ассистентской стипендии",
+   "reason": "Сайт кафедры пишет только «Globally competetive financial asistance … and tuition waivers are available», без сумм."
+  },
+  {
+   "item": "Германия: сумма блокированного счёта именно на 2026",
+   "reason": "Последняя официальная памятка посольства датирована февралём 2025 (992 €/мес). Страница МИД ФРГ о Sperrkonto сумму не называет. В living_minimum цифра включена с пометкой as_of."
+  },
+  {
+   "item": "Швейцария (Цюрих/Во): минимальные средства для студенческого ВНЖ",
+   "reason": "zh.ch и vd.ch отдают страницы через скрипт без текста, PDF посольства на eda.admin.ch вернул Access Denied, у ETH и EPFL на страницах суммы нет."
+  },
+  {
+   "item": "Венгрия: минимальные средства для студенческого ВНЖ",
+   "reason": "Закон требует подтвердить средства, но фиксированную сумму на официальной странице не нашёл."
+  },
+  {
+   "item": "Россия: прожиточный минимум 2026 для трудоспособного населения Москвы",
+   "reason": "mos.ru недоступен из этой среды (соединение не устанавливается). На publication.pravo.gov.ru московского постановления на 2026 год не нашёл."
+  },
+  {
+   "item": "UKRI: лондонская ставка стипендии",
+   "reason": "На странице UKRI указан только национальный минимум 21 805 £. Лондонской надбавки там нет."
+  }
+ ]
+}

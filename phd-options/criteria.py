@@ -15,6 +15,8 @@ NOT_LISTED = {"arwu": 501, "qs": 604}  # вуза нет в опубликова
 
 
 def place(src, name):
+    if name in ("РАУ", "ЕГУ", "ТГУ"):
+        return NOT_LISTED[src], "—"
     for r in R[src]["rows"]:
         if r["institution"].startswith(name):
             if not r["rank_low"]:
@@ -40,6 +42,13 @@ OPTIONS = [
     ("Stipendium Hungaricum (ELTE)", 160000 / HUF, "380–490 €", 1, True, False, "ELTE"),
     ("Сколтех", 75000 / RUB, "от 793 €", 4, False, True, "Сколтех"),
     ("МФТИ", 25000 / RUB, "264 €", 4, False, True, "МФТИ"),
+    # сумма стипендии МГУ, СПбГУ и РАУ не опубликована: ставим их ниже всех известных выплат,
+    # а вузы, где иностранец платит за обучение, ещё ниже
+    ("МГУ", 0, "госстипендия", 4, False, True, "МГУ"),
+    ("СПбГУ", 0, "госстипендия", 4, False, True, "СПбГУ"),
+    ("РАУ, Ереван (места РФ)", 0, "госстипендия\n+ 30–60 тыс. драмов", 4, False, True, "РАУ"),
+    ("ЕГУ, Ереван", -1, "платное место", 4, False, False, "ЕГУ"),
+    ("ТГУ, Тбилиси", -1, "нет; плата\n300 лари в год", 3, False, False, "ТГУ"),
 ]
 
 rows = []
@@ -53,7 +62,7 @@ CRIT = [  # (заголовок, ключ, больше = лучше, подпи
     ("Выплата\nв месяц", "pay", True, lambda r: r["pay_l"]),
     ("Супруг", "spouse", True, lambda r: SPOUSE[r["spouse"]]),
     ("Виза", "visa", False, lambda r: "нужна" if r["visa"] else "не нужна"),
-    ("Язык\nстраны", "lang", True, lambda r: "русский" if r["name"] in ("МФТИ", "Сколтех")
+    ("Язык\nстраны", "lang", True, lambda r: "русский" if r["name"] in ("МФТИ", "Сколтех", "МГУ", "СПбГУ", "РАУ, Ереван (места РФ)")
      else ("английский" if r["lang"] else "местный")),
     ("Рейтинг по математике\nARWU / QS", "rating", False, lambda r: r["rating_l"]),
 ]
@@ -65,13 +74,19 @@ order = np.argsort(mean, kind="stable")
 n = len(rows)
 
 
+def place_label(i):
+    k = int(np.sum(np.isclose(mean, mean[i])))
+    lo = int(round(total[i] - (k - 1) / 2))
+    return f"{lo}" if k == 1 else f"{lo}–{lo + k - 1}"
+
+
 def shade(rank):
     t = (rank - 1) / (n - 1)
     a, b = np.array(to_rgb(DARK)), np.array(to_rgb(LIGHT))
     return a + (b - a) * t
 
 
-fig, ax = plt.subplots(figsize=(11, 7.4), dpi=200)
+fig, ax = plt.subplots(figsize=(11, 9.6), dpi=200)
 fig.patch.set_facecolor(SURFACE); ax.set_facecolor(SURFACE)
 W = [1.55, 1.25, 0.9, 0.95, 1.6, 0.9]
 X = np.concatenate([[0], np.cumsum(W)])
@@ -86,7 +101,7 @@ for row_i, i in enumerate(order):
     j = len(CRIT)
     ax.add_patch(plt.Rectangle((X[j] + 0.03, y + 0.06), W[j] - 0.06, 0.88, color=shade(total[i]), lw=0))
     ink = "#ffffff" if total[i] <= n * 0.55 else TEXT
-    ax.text(X[j] + W[j] / 2, y + 0.5, (f"{int(total[i])}" if total[i] == int(total[i]) else f"{int(total[i])}–{int(total[i]) + 1}") + f"  ({mean[i]:.1f})".replace(".", ","),
+    ax.text(X[j] + W[j] / 2, y + 0.5, place_label(i) + f"  ({mean[i]:.1f})".replace(".", ","),
             ha="center", va="center", fontsize=8.5, color=ink, fontweight="bold")
     ax.text(-0.08, y + 0.5, rows[i]["name"], ha="right", va="center", fontsize=9, color=TEXT)
 for j, (h, *_) in enumerate(CRIT + [("Итог: место\n(средний ранг)",)]):
@@ -96,11 +111,11 @@ ax.set_axis_off()
 ax.set_title("Варианты аспирантуры по пяти критериям: чем темнее ячейка, тем выше ранг",
              loc="left", fontsize=13, color=TEXT, x=-0.0, pad=4)
 fig.text(0.02, 0.015,
-         "Ранги по каждому критерию от 1 (лучший) до 14, равные значения делят ранг. Итог: среднее пяти рангов с равными весами.\n"
+         "Ранги по каждому критерию от 1 (лучший) до 19, равные значения делят ранг. Итог: среднее пяти рангов с равными весами.\n"
          "Выплата брутто и нетто сравнивается приблизительно. Рейтинги 2026 года; вуз, которого нет в списке, ставится за его конец.\n"
-         "Для страны в скобках указан вуз, чьё место взято. Курсы ЕЦБ и Банка России на 02.10.2026.",
+         "Для страны в скобках указан вуз, чьё место взято. Стипендия МГУ, СПбГУ и РАУ поставлена ниже известных выплат, платное обучение ещё ниже. Курсы ЕЦБ и Банка России на 02.10.2026.",
          fontsize=7.5, color=TEXT2)
-fig.subplots_adjust(left=0.01, right=0.99, top=0.93, bottom=0.1)
+fig.subplots_adjust(left=0.01, right=0.99, top=0.93, bottom=0.07)
 fig.savefig("Аспирантура — критерии и ранги.png", facecolor=SURFACE)
 
 for i in order:
